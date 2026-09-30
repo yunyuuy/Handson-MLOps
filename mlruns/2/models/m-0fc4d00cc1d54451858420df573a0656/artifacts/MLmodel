@@ -1,0 +1,23 @@
+artifact_path: file:D:/yuy/ODP/03. LEARN/03. BOOTCAMP/02. PROJECTS/DAY 19/MLOps_HandsOn_Sesi_Siang/mlruns/2/models/m-0fc4d00cc1d54451858420df573a0656/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.15
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: pickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-0fc4d00cc1d54451858420df573a0656
+model_size_bytes: 11965670
+model_uuid: m-0fc4d00cc1d54451858420df573a0656
+prompts: null
+run_id: 3a5decfb82814b9097b0ae5b3c3018b7
+utc_time_created: '2026-09-30 06:12:33.591639'
